@@ -11,4 +11,19 @@
 
 #include <iostream>
 
+class Sensor{
+public:
+    void setSensorId(int theSensorId);
+    void setMinValue(double theMinValue);
+    void setMaxValue(double theMaxValue);
+    
+private:
+    int sensorId;
+    double minValue;
+    double maxValue;
+    double currentValue;
+};
+
+
 #endif /* defined(__IRISensorSimulator__Sensor__) */
+

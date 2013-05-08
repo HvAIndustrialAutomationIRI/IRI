@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3FFF348C16F8777D00D194C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF348B16F8777D00D194C3 /* main.cpp */; };
 		3FFF348E16F8777D00D194C3 /* IRISensorSimulator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FFF348D16F8777D00D194C3 /* IRISensorSimulator.1 */; };
+		3FFF349616F877D500D194C3 /* Sensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF349416F877D500D194C3 /* Sensor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		3FFF348816F8777D00D194C3 /* IRISensorSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IRISensorSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF348B16F8777D00D194C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3FFF348D16F8777D00D194C3 /* IRISensorSimulator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IRISensorSimulator.1; sourceTree = "<group>"; };
+		3FFF349416F877D500D194C3 /* Sensor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sensor.cpp; sourceTree = "<group>"; };
+		3FFF349516F877D500D194C3 /* Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				3FFF348B16F8777D00D194C3 /* main.cpp */,
 				3FFF348D16F8777D00D194C3 /* IRISensorSimulator.1 */,
+				3FFF349416F877D500D194C3 /* Sensor.cpp */,
+				3FFF349516F877D500D194C3 /* Sensor.h */,
 			);
 			path = IRISensorSimulator;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFF348C16F8777D00D194C3 /* main.cpp in Sources */,
+				3FFF349616F877D500D194C3 /* Sensor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
