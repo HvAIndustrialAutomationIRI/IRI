@@ -119,8 +119,9 @@ int main(void)
         printf("Connectie van: %s\n", s);
         
         if (!fork()) { 
-            close(socket_file_descriptor); 
-            if (send(new_file_descriptor, "Connectie is actief", 13, 0) == -1)
+            close(socket_file_descriptor);
+            char *pstr = "Hier de string die je gaat sturen\n";
+            if (send(new_file_descriptor, pstr, strlen(pstr), 0) == -1)
                 perror("send");
             close(new_file_descriptor);
             exit(0);
